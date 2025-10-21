@@ -1,13 +1,21 @@
-            //Klavyeden satır sayısı, sütun sayısı ve bir rakam girildiğinde, girilen değerlere göre ekrana dikdörtgen çerçeve şeklinde bir çıktı veren bir C# programı yazınız.
-            //Örnek çıktı:
-            //Satır sayısını giriniz: 5
-            //Sütun sayısını giriniz: 6
-            //Hangi sayılardan oluşacağını giriniz: 8
-            //8 8 8 8 8 8
-            //8         8
-            //8         8
-            //8         8
-            //8 8 8 8 8 8
+namespace Calisma1Cevap
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+            Klavyeden satır sayısı, sütun sayısı ve bir rakam girildiğinde, girilen değerlere göre ekrana dikdörtgen çerçeve şeklinde bir çıktı veren bir C# programı yazınız.
+            Örnek çıktı:
+            Satır sayısını giriniz: 5
+            Sütun sayısını giriniz: 6
+            Hangi sayılardan oluşacağını giriniz: 8
+            8 8 8 8 8 8
+            8         8
+            8         8
+            8         8
+            8 8 8 8 8 8
+            */
 
             Console.Write("Satır sayısını giriniz: ");
             int satir = Convert.ToInt32(Console.ReadLine());
@@ -37,3 +45,6 @@
                 }
                 Console.WriteLine();
             }
+        }
+    }
+}
