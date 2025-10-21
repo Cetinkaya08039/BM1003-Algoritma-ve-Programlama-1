@@ -6,7 +6,9 @@ namespace Cevap
         {
             /*
             Soru:
-            5 satır ve 3 sütundan oluşan bir matris (2 boyutlu dizi) oluşturunuz. Matrisi 1 ile 9 arasında rastgele sayılarla doldurunuz. Matrisi yazdırın ve ardından her sütunun toplamını ayrı ayrı gösteriniz.
+            5 satır ve 3 sütundan oluşan bir matris (2 boyutlu dizi) oluşturunuz. 
+            Matrisi 1 ile 9 arasında rastgele sayılarla doldurunuz. 
+            Matrisi yazdırın ve ardından her sütunun toplamını ayrı ayrı gösteriniz.
             Örnek çıktı:
     
             Üretilen matris:
@@ -23,7 +25,8 @@ namespace Cevap
             Sütun 3: 24
             
             Not:
-            Bu uygulamada, başlangıçta sabit boyutlarda tanımlanan matris yapısı yerine, kullanıcıdan satır ve sütun sayılarının dinamik olarak alınması sağlanmıştır. Bu sayede programın esnekliği artırılmış ve farklı boyutlarda matrislerin kolayca oluşturulabilmesi mümkün hale getirilmiştir.
+            Bu uygulamada, başlangıçta sabit boyutlarda tanımlanan matris yapısı yerine, kullanıcıdan satır ve sütun sayılarının dinamik olarak alınması sağlanmıştır. 
+            Bu sayede programın esnekliği artırılmış ve farklı boyutlarda matrislerin kolayca oluşturulabilmesi mümkün hale getirilmiştir.
             */
 
             Console.Write("Satır sayısını giriniz: ");
