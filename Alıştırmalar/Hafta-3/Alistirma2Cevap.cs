@@ -36,11 +36,12 @@ namespace Alistirma2Cevap
                 int yuzler = sayi / 100;
                 int onlar = (sayi % 100)/10;
                 int birler = sayi % 10;
+                int toplam = yuzler + birler + onlar;
                 Console.WriteLine("Girdiğiniz sayının;");
                 Console.WriteLine("Yüzler basamağı: " + yuzler);
                 Console.WriteLine("Onlar basamağı: " + onlar);
                 Console.WriteLine("Birler basamağı: " + birler);
-                break;
+                Console.WriteLine("Basamak toplamları: " + toplam);
             }
             }
         }
