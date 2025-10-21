@@ -1,4 +1,4 @@
-# BM1003 - Algoritma ve Programlama 1
+# Algoritma ve Programlama 1
 
 Bu repository, **Algoritma ve Programlama 1** dersi kapsamında verilen ödev, alıştırma ve ders dışı ek çalışmalar için oluşturulmuştur.
 
