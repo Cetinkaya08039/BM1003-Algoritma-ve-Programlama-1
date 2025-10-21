@@ -9,8 +9,9 @@ namespace Alistirma2Cevap
             Ör: 123 sayısının basamakları toplam 1 + 2 + 3 = 6’dır.
 
             Not: 
-            Hatalı (3 basamaklı olmayan) bir sayı girildiğinde kullanıcıya uyarı verilir 
-            ve program doğru giriş yapılana kadar tekrar çalışmaya devam eder.
+            Hatalı (3 basamaklı olmayan) bir sayı girildiğinde program uyarı mesajı vererek 3 saniye bekliyor
+            ve ekranı temizleyip tekrar giriş yapılmasını istiyor. Böylece hatalı girişlerde kod otomatik olarak
+            yeniden çalışmaya başlıyor.
             */
 
             while (true)
