@@ -7,7 +7,7 @@ Bu repository, **Algoritma ve Programlama 1** dersi kapsamında verilen ödev, a
 ## 📚 İçerik
 
 Bu repoda;
-- Ders boyunca verilen **Ödevler**
-- Ders sonunda verilen **Alıştırmalar**
+- Ders boyunca verilen **Ödevler**,
+- Ders sonunda verilen **Alıştırmalar**,
 - Ders dışında yapılan **Ek çalışmalar**
 bulunmaktadır.
