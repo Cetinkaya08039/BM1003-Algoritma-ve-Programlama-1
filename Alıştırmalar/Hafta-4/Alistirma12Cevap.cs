@@ -46,7 +46,7 @@ namespace Alistirma12Cevap
                 }
                 
             }
-            Console.WriteLine("Girdiğiniz sayıların rakamlarının en büyüğü: " + buyuk);
+            Console.WriteLine("Girdiğiniz sayının rakamlarının en büyüğü: " + buyuk);
         }
 
             
