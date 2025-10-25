@@ -12,44 +12,29 @@ namespace Alistirma8Cevap
             Rakamların toplamı: 10
             */
             Console.Write("Bir tam sayı giriniz: ");
-            int sayi = Convert.ToInt32(Console.ReadLine());
-
-            int basamak = 0;
-
-            if (sayi == 0)
+            string sayistr = Console.ReadLine();
+            int sayiint = Convert.ToInt32(sayistr);
+            int basamaksayi = sayistr.Length;
+            int[] basamak = new int[basamaksayi];
+            int toplam = 0;
+            for (int i = 0; i < basamaksayi; i++)
             {
-                basamak++;
-            }
-            if (sayi < 0 )
-            {
-                sayi = -sayi;
-            }
-            int sayi2 = sayi;
-            while (sayi2 > 0)
-            {
-                sayi2 = sayi2 / 10;
-                basamak++;
-            }
-
-            double toplam = 0;
-            for (int i = 1; i <= basamak; i++)
-            {
-                if (i == basamak - 1)
+                if (i == 0)
                 {
-                    toplam += sayi / Math.Pow(10, i);
+                    // Convert.ToInt32 sayıyı yuvarlıyordu örneğin sayı 5.6 ise 5 çıkartmak yerine 6 yapıyordu bunun yerine (int) kullanıldı.
+                    basamak[i] = (int)(sayiint / Math.Pow(10, basamaksayi-1));
                 }
-                else if (i != 1)
+                else if (i == basamaksayi-1)
                 {
-                    toplam += (sayi % Math.Pow(10, i)) / Math.Pow(10, i);
-
+                    basamak[i] = sayiint % 10;
                 }
                 else
                 {
-                    toplam += (sayi % Math.Pow(10, i));
-
+                    basamak[i] = (int)(sayiint % Math.Pow(10, basamaksayi - i) / Math.Pow(10,basamaksayi -1- i));
                 }
+                toplam += basamak[i];
             }
-            Console.WriteLine(Convert.ToInt32(toplam));
+            Console.WriteLine("Girdiğiniz sayıların rakamları toplamı: " + toplam);
         }
     }
 }
