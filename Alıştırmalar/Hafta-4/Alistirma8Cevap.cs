@@ -34,7 +34,7 @@ namespace Alistirma8Cevap
                 }
                 toplam += basamak[i];
             }
-            Console.WriteLine("Girdiğiniz sayıların rakamları toplamı: " + toplam);
+            Console.WriteLine("Girdiğiniz sayının rakamları toplamı: " + toplam);
         }
     }
 }
