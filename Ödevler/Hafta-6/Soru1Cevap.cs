@@ -35,7 +35,7 @@ namespace Ödev
             int n = Convert.ToInt32(Console.ReadLine());
             int[,] matris = new int[n, n];
             Random rnd = new Random();
-            // Birden fazla satır atlatma olayını("\n\n") birden fazla Console.Writeline() kullanmak yerine bir alternatif araştırarak bulup yaptım.
+            // Birden fazla satır atlatma olayını("\n\n") birden fazla Console.Writeline() kullanmak yerine bir alternatif bulmak amacıyla araştırarak bulup yaptım.
             Console.WriteLine("\n\n" + " Oluşturulan Matris:");
             int asalkosegentoplam = 0;
             int yardimcikosegencarpim = 1;
